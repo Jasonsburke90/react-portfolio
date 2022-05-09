@@ -3,7 +3,6 @@ function Header() {
     <>
       {/* add flexbox */}
       <header>
-        logo here
         <nav>About Me My Projects Contact Me</nav>
       </header>
     </>
