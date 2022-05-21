@@ -1,9 +1,12 @@
 import Layout from "./components/Layout";
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Layout></Layout>
+      <div className="bgc-darkblue d-f fxd-c">
+        <Layout></Layout>
+      </div>
     </Router>
   );
 }

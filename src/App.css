@@ -1,0 +1,212 @@
+/* ELEMENT STYLES */
+
+body {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+img {
+  width: 100%;
+}
+
+nav {
+  border-bottom: 1px solid white;
+}
+
+footer {
+  border-top: 1px solid white;
+}
+
+/* FORMATTING */
+
+.ai-c {
+  align-items: center;
+}
+
+.disp-b {
+  display: block;
+}
+.jc-c {
+  justify-content: center;
+}
+.ac-c {
+  align-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.marg-auto {
+  margin: auto;
+}
+
+.marg-left {
+  margin-left: 1rem;
+}
+
+.marg-right {
+  margin-right: 1rem;
+}
+
+.marg-top {
+  margin-top: 1rem;
+}
+
+.max-w-100 {
+  max-width: 100%;
+}
+
+.min-w-50 {
+  min-width: 50%;
+}
+
+.min-w-100 {
+  min-width: 100%;
+}
+
+.p {
+  padding: 1rem;
+}
+
+.p25 {
+  padding: 0.25rem;
+}
+
+.pos-rel {
+  position: relative;
+  margin: -4rem 0 4rem 0;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-c {
+  width: fit-content;
+}
+
+/* BACKGROUNDS */
+.bgc-pine {
+  background-color: #69a297;
+}
+.bgc-darkblue {
+  background-color: #242333;
+}
+
+/* BORDERS */
+.brd-c-white {
+  border: white;
+}
+
+.brd-s-solid {
+  border-style: solid;
+}
+
+/* FONTS */
+.fc-white {
+  color: white;
+}
+
+.fc-link {
+  color: #69a297;
+}
+
+.fs-bold {
+  font-style: bold;
+}
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fz--- {
+  font-size: smaller;
+}
+.fz-\+ {
+  font-size: large;
+}
+
+.fz-\+\+ {
+  font-size: larger;
+}
+
+.fz-\+\+\+ {
+  font-size: x-large;
+}
+
+.ta-b {
+  text-align: bottom;
+}
+.ta-l {
+  text-align: left;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+/* FLEX */
+.d-f {
+  display: flex;
+}
+
+.fg-1 {
+  flex-grow: 1;
+}
+
+.fx-1 {
+  flex: 1 0 0;
+}
+
+.fx-1-100 {
+  flex: 1 0 100%;
+}
+
+.fxd-c {
+  flex-direction: column;
+}
+
+.fxd-r {
+  flex-direction: row;
+}
+
+.fx-w {
+  flex-wrap: wrap;
+}
+
+.fx-wr {
+  flex-wrap: wrap-reverse;
+}
+
+/* media queries */
+/* large screens */
+@media (min-width: 768px) {
+  .d-f\@large {
+    display: flex;
+  }
+
+  .jc-sb\@lrg {
+    justify-content: space-between;
+  }
+
+  .fx-1\@lrg {
+    flex: 1 0 0;
+  }
+
+  .fz-\+\@lrg {
+    font-size: larger;
+  }
+
+  .maxw45\@lrg {
+    max-width: 45%;
+  }
+
+  .ml\@large {
+    margin-left: 2rem;
+  }
+}
+
+/* small screens (phone) */
+@media (max-width: 767px) {
+}
+.miw100\@sml {
+  min-width: 100%;
+}
