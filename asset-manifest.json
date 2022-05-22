@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2aa59b60.css",
+    "main.js": "/static/js/main.3b2a9b86.js",
+    "static/media/jason-pic.jpg": "/static/media/jason-pic.5d206f4794843209eafe.jpg",
+    "static/media/horiseon_img.png": "/static/media/horiseon_img.7f60905178a92791a567.png",
+    "static/media/recipeme.png": "/static/media/recipeme.58a178c2d9d67fce2c27.png",
+    "static/media/COVID_Project.png": "/static/media/COVID_Project.8e5c431db18797a65762.png",
+    "static/media/weatherdashboard.png": "/static/media/weatherdashboard.53a50fb36c3ace4a59a0.png",
+    "static/media/passwordgen.png": "/static/media/passwordgen.7cc3e7f46064bd003790.png",
+    "static/media/jsb-note-taking-app.png": "/static/media/jsb-note-taking-app.00c7f1b545333147e565.png",
+    "static/media/codingquiz.png": "/static/media/codingquiz.d830b861007d51ee9ce9.png",
+    "index.html": "/index.html",
+    "main.2aa59b60.css.map": "/static/css/main.2aa59b60.css.map",
+    "main.3b2a9b86.js.map": "/static/js/main.3b2a9b86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aa59b60.css",
+    "static/js/main.3b2a9b86.js"
+  ]
+}
