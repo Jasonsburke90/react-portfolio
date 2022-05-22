@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Headshot from "./components/Headshot";
 import Contact from "./components/Contact";
 
+import "./assets/reset.css";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {

@@ -12,8 +12,8 @@ The site is mobile responsive, with the format of the site changing based on the
 
 ## Screenshots
 
-![Fullpage Screenshot] (./assets/images/jsb-portfolio.fullsize.png)
-![Mobile Friendly screenshot] (./assets/images/jsb-portfolio.mobile.png)
+![Fullpage Screenshot] (./assets/images/jsb-portfolio.fullsize.png "fullsize")
+![Mobile Friendly screenshot] (./assets/images/jsb-portfolio.mobile.png "mobile")
 
 ## Contact Information
 
