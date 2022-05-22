@@ -90,7 +90,11 @@ footer {
 .bgc-darkblue {
   background-color: #242333;
 }
-
+.active {
+  font-weight: bolder;
+  font-style: italic;
+  color: #69a297;
+}
 /* BORDERS */
 .brd-c-white {
   border: white;

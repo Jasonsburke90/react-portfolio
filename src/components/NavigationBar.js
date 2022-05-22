@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavigationBar() {
   return (
@@ -8,15 +8,22 @@ function NavigationBar() {
         <nav className="ai-c d-f  p jc-sb@lrg">
           <div className="bgc-pine fs-bold fs-italic fz-+++ p25 w-c">JB</div>
           <ul className=" fz-+ p d-f@large">
-            <Link to="/">
-              <li className="ml@large">About Me </li>
-            </Link>
-            <Link to="/portfolio">
-              <li className="ml@large"> My Projects </li>
-            </Link>
-            <Link to="/contact">
-              <li className="ml@large">Contact Me </li>
-            </Link>
+            <li className="ml@large">
+              {" "}
+              <NavLink exact activeClassName="active" to="/">
+                About Me
+              </NavLink>
+            </li>
+            <li className="ml@large">
+              <NavLink exact to="/portfolio" activeClassName="active">
+                My Projects
+              </NavLink>{" "}
+            </li>
+            <li className="ml@large">
+              <NavLink exact to="/contact" aactiveClassName="active">
+                Contact Me
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </header>
