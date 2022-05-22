@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer id="contact_me" className=" ai-c bgc-pine jc-sb p d-f@large">
@@ -7,10 +9,10 @@ function Footer() {
         <li class="ml@large">
           <a href="mailto: jasonsburke90@gmail.com">Email Me</a>
         </li>
-        <li class="ml@large">
-          <a href="./assets/docs/updatedresume.pdf" target="_blank">
+        <li>
+          <Link to="/resume" class="ml@large">
             Resume
-          </a>
+          </Link>
         </li>
         <li class="ml@large">
           <a href="https://www.linkedin.com/in/jason-burke-a29658223/">
