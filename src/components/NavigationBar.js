@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function NavigationBar() {
   return (
     <>
@@ -6,15 +8,15 @@ function NavigationBar() {
         <nav className="ai-c d-f  p jc-sb@lrg">
           <div className="bgc-pine fs-bold fs-italic fz-+++ p25 w-c">JB</div>
           <ul className=" fz-+ p d-f@large">
-            <a>
+            <Link to="/">
               <li className="ml@large">About Me </li>
-            </a>
-            <a>
+            </Link>
+            <Link to="/portfolio">
               <li className="ml@large"> My Projects </li>
-            </a>
-            <a>
+            </Link>
+            <Link to="/contact">
               <li className="ml@large">Contact Me </li>
-            </a>
+            </Link>
           </ul>
         </nav>
       </header>
