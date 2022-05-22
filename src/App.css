@@ -34,6 +34,9 @@ footer {
 .jc-sb {
   justify-content: space-between;
 }
+.h-100 {
+  height: 100vh;
+}
 .marg-auto {
   margin: auto;
 }
@@ -73,6 +76,12 @@ footer {
 .pos-rel {
   position: relative;
   margin: -4rem 0 4rem 0;
+}
+
+.text-input {
+  height: 150px;
+  width: 400px;
+  font-size: 14pt;
 }
 
 .w-100 {
